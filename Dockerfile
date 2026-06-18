@@ -1,3 +1,3 @@
 FROM ngingx:alpine
-COPY ./usr/share/ngingx/html
+COPY . /usr/share/ngingx/html
 EXPOSE 80
